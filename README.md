@@ -5,15 +5,14 @@ LINE Bot Sample.
 ## Description
 
 Here is a sample bot using line-bot-sdk.
+
 Implemented events are FollowEvent, UnFollowEvent, MessageEvent.
 
-## Features
+## Requirement
 
-- Awesome function
-- Awesome UI
-- ...
-
-For more information, see `awesome-tool --help`.
+- Requirement
+- Requirement
+- Requirement
 
 ## Usage
 
