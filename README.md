@@ -1,4 +1,4 @@
-# test_line_bot
+# Test LINE Bot
 
 LINE Bot Sample.
 
