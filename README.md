@@ -10,9 +10,9 @@ Implemented events are FollowEvent, UnFollowEvent, MessageEvent.
 
 ## Requirement
 
-- Requirement
-- Requirement
-- Requirement
+- Flask==1.0.3
+- Flask-Bootstrap==3.3.7.1
+- line-bot-sdk==1.9.0
 
 ## Usage
 
