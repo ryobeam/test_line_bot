@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block title %}Message Log{% endblock %}
+{% block content %}
+<table class="table table-striped">
+    <tbody>
+      {% for s in log %}
+        <tr>
+            <th>{{s}}</th>
+        </tr>
+      {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

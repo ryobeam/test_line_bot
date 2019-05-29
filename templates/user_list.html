@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block title %}User List{% endblock %}
+{% block content %}
+<table class="table table-striped">
+    <thead>
+        <tr><th>Row</th><th>User ID</th><th>Display Name</th><th>Created</th></tr>
+    </thead>
+    <tbody>
+      {% for u in list %}
+        <tr>
+            <th>{{u[0]+1}}</th>
+            <td>{{u[1]}}</td>
+            <td>{{u[2]}}</td>
+            <td>{{u[3]}}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
