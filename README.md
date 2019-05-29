@@ -1,6 +1,6 @@
 # Test LINE Bot
 
-LINE Bot Sample.
+LINE Bot Sample for Python3.
 
 ## Description
 
