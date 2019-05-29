@@ -1,18 +1,11 @@
-# Awesome-name
+# test_line_bot
 
-![Badge Status](https://ci-as-a-service)
-
-OverviewOverviewOverview
+LINE Bot Sample.
 
 ## Description
 
-DescriptionDescriptionDescription
-DescriptionDescriptionDescription
-DescriptionDescriptionDescription
-
-***DEMO:***
-
-![Demo](https://image-url.gif)
+Here is a sample bot using line-bot-sdk.
+Implemented events are FollowEvent, UnFollowEvent, MessageEvent.
 
 ## Features
 
@@ -22,31 +15,19 @@ DescriptionDescriptionDescription
 
 For more information, see `awesome-tool --help`.
 
-## Requirement
-
-- Requirement
-- Requirement
-- Requirement
-
 ## Usage
 
-1. Usage
-2. Usage
-3. Usage
+    1. $ cp .env.sample .env
+    2. edit '.env'
+    3. $ sudo python3 testbot.py
 
 ## Installation
 
-    $ git clone https://github.com/b4b4r07/awesome-tool
-
-## Anything Else
-
-AnythingAnythingAnything
-AnythingAnythingAnything
-AnythingAnythingAnything
+    $ git clone https://github.com/ryobeam/test_line_bot
 
 ## Author
 
-[@b4b4r07](https://twitter.com/b4b4r07)
+[ryobeam](https://github.com/ryobeam)
 
 ## License
 
