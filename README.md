@@ -16,9 +16,10 @@ Implemented events are FollowEvent, UnFollowEvent, MessageEvent.
 
 ## Usage
 
-    1. $ cp .env.sample .env
-    2. edit '.env'
-    3. $ sudo python3 testbot.py
+    1. $ sqlite3 test.db < setup.sql
+    2. $ cp .env.sample .env
+    3. edit '.env'
+    4. $ sudo python3 testbot.py
 
 ## Installation
 
